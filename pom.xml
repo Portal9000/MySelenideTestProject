@@ -33,7 +33,8 @@
 
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/TestNG.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/TestNG.xml</suiteXmlFile>  <!--${suiteFile} src/test/resources/TestNG.xml-->
+                        <suiteXmlFile>src/test/resources/cucumber.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <testFailureIgnore>true</testFailureIgnore>
                     <argLine>
