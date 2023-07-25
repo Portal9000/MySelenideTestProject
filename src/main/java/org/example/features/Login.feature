@@ -9,4 +9,5 @@ Feature: Login feature
     Examples:
       | username      | password     | titleName |
       | standard_user | secret_sauce | Products  |
+      | standard_user | secret_sauce | Products  |
       | user2         | secret       | Products  |
